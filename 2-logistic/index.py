@@ -17,31 +17,31 @@ iris = datasets.load_iris()
 # print iris.target
 
 X = iris.data
-Y = iris.target
+y = iris.target
 
-X_train, X_test, Y_train, Y_test = cross_validation.train_test_split(X, Y, test_size=0.15, random_state=2)
+X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.15, random_state=2)
 
 model = LogisticRegression()
-model.fit(X_train, Y_train)
+model.fit(X_train, y_train)
 
 #predicts class labels
-Y_predict = model.predict(X_test)
+y_predict = model.predict(X_test)
 
-Y_predict_probabilities = model.predict_proba(X_test)
-# print Y_predict
-# print Y_test
+y_predict_probabilities = model.predict_proba(X_test)
+# print y_predict
+# print y_test
 
 #the default is accuracy score
-print model.score(X_test, Y_test)
-print metrics.accuracy_score(Y_test, Y_predict)
+print model.score(X_test, y_test)
+print metrics.accuracy_score(y_test, y_predict)
 
-print Y_test.shape
-print Y_predict.shape
+print y_test.shape
+print y_predict.shape
 
 #another option is logistic loss, but need to predict probabilities
-print metrics.log_loss(Y_test, Y_predict_probabilities)
+print metrics.log_loss(y_test, y_predict_probabilities)
 
 #also are classification reports and confusion matrices
-print metrics.classification_report(Y_test, Y_predict)
-print metrics.confusion_matrix(Y_test, Y_predict)
+print metrics.classification_report(y_test, y_predict)
+print metrics.confusion_matrix(y_test, y_predict)
 
