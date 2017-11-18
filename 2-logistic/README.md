@@ -6,9 +6,12 @@ Precision, recall, f1-score, and support are used in the classification report t
 
 We’ll see how to implement logistic regression to estimate discrete values. In this case, we’ll classify images of irises.
 
-*Precision*: the amount of true positives over the amount of true and false positives. What is the probability of a sample actually being positive if it is labeled as positive?
-*Recall*: the amount of true positives of the amount of true positives plus the false negatives. What is the probability that the model will accurately pick up on a true positive?
-*F1-score*: a combination of precision and recall.
-*Support*: the number of samples of each class in the dataset.
+**Precision**: the amount of true positives over the amount of true and false positives. What is the probability of a sample actually being positive if it is labeled as positive?
+
+**Recall**: the amount of true positives of the amount of true positives plus the false negatives. What is the probability that the model will accurately pick up on a true positive?
+
+**F1-score**: a combination of precision and recall.
+
+**Support**: the number of samples of each class in the dataset.
 
 http://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html

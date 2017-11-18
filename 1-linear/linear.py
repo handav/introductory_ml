@@ -1,4 +1,3 @@
-import numpy
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn import cross_validation
@@ -23,7 +22,7 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 test_house = [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-print model.predict(test_house)
+print model.predict(X_test)
 
 y_predict = model.predict(X_test)
 

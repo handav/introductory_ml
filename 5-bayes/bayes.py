@@ -1,4 +1,3 @@
-import numpy
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.naive_bayes import MultinomialNB

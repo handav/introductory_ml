@@ -1,8 +1,7 @@
-import numpy
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.svm import SVC
-from sklearn import cross_validation
+from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
 iris = datasets.load_iris()
@@ -10,7 +9,7 @@ iris = datasets.load_iris()
 X = iris.data
 y = iris.target
 
-X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.15, random_state=2)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=2)
 
 #SVC for classification, #SVR for regression
 #can change kernels

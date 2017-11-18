@@ -10,7 +10,7 @@ We are working with toy datasets here, so it is important not to read too much i
 
 ### Installation:
 
-http://scikit-learn.org/stable/install.html
+Scikit-learn and matplotlib need to be installed via your installer of choice (generally 'pip install scikit-learn' and 'pip install matplotlib' work).
 
 
 ### Datasets: 
