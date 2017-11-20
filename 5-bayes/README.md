@@ -10,4 +10,4 @@ To install pandas_ml, type:
 
 pip install pandas_ml
 
-into your terminal.
+into your terminal, or install it with your installer of choice.
