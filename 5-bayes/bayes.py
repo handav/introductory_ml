@@ -27,7 +27,3 @@ labels = list(newsgroups_train.target_names)
 cm = ConfusionMatrix(y_test, predictions, labels)
 cm.plot()
 plt.show()
-
-
-
-

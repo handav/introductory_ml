@@ -4,5 +4,4 @@ We’ll continue with the iris dataset to implement k-nearest neighbors, which m
 
 KNN can be used for both classification and regression problems. 
 
-
 KNN is good for low dimensional data (data without too many input variables). It is not good for unbalanced data sets, and it can be computationally expensive. 

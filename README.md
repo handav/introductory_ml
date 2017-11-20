@@ -10,7 +10,7 @@ We are working with toy datasets here, so it is important not to read too much i
 
 ### Installation:
 
-Scikit-learn and matplotlib need to be installed via your installer of choice (generally 'pip install scikit-learn' and 'pip install matplotlib' work).
+Scikit-learn and matplotlib need to be installed via your installer of choice (generally 'pip install scikit-learn' and 'pip install matplotlib' work). For lesson number 5, pandas_ml will also need to be installed for those who want to visualize their confusion matrix.
 
 
 ### Datasets: 
