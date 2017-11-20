@@ -21,3 +21,6 @@ predictions = model.predict(X_test)
 print metrics.classification_report(y_test, predictions)
 print metrics.confusion_matrix(y_test, predictions)
 
+plt.scatter(X_train[:, 0], X_train[:, 1], c=y_train)
+plt.scatter(X_test[:, 0], X_test[:, 1], c='m')
+plt.show()
