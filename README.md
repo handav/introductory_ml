@@ -22,10 +22,15 @@ To load your own, review this page to make sure you format your dataset correctl
 
 ### Vocabulary:
 
-Classification: a problem where the aim is to classify data into discrete categories.
-Regression: a problem that aims to predict a number along a continuous spectrum, such as estimating the price of a house.
-Supervised Learning: using algorithms on data that has target labels.
-Unsupervised Learning: using algorithms on data that does not have labels.
+#### Classification: a supervised learning problem where the aim is to classify data into discrete categories.
+
+#### Regression: a supervised learning problem that aims to predict a number along a continuous spectrum, such as estimating the price of a house.
+
+Classification and regression both fall under the category of supervised learning.
+
+#### Supervised Learning: using algorithms on data that has target labels.
+
+#### Unsupervised Learning: using algorithms on data that does not have labels.
 
 You should understand basic machine learning vocabulary (including 'classification', 'regression', 'supervised learning', and 'unsupervised learning') for this course. Scikit-learn has a vocabulary section at http://scikit-learn.org/stable/tutorial/basic/tutorial.html.
 
